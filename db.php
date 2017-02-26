@@ -28,7 +28,6 @@ class db{
 	}
 	function close(){
 		mysqli_close($this->link);
-
 	}
 }
 ?>
